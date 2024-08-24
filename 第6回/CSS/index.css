@@ -14,6 +14,7 @@ body {
 .kv {
     background-image: url(..//logo/backdround.png);
     height: 841.11px;
+    width: 1440px;
     background-position: center;
     background-size: cover;
 }
@@ -139,6 +140,7 @@ body {
 
 .kv {
     background-image: url(..//logo/bg_iphone.png);
+    width: initial !important;
     height: 466px;
     background-position: center;
     background-size: cover;
@@ -377,6 +379,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
 .bg_summit {
     margin-top: -17px;
     background-image: url(..//logo/bg2_pc.png);
+    width:1440px;
     height: 1501.26px;
     background-position: center;
     background-size: cover;
@@ -398,8 +401,9 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
 .summit_sub {
     display: flex;
     justify-content: center;
+    width: 1440px;
     padding-top: 17px;
-    padding-right: 4px;
+    transform: translateX(-4px);
 }
 
 .summit_subt{
@@ -415,7 +419,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
     line-height: 18px;
     text-align: center;
     margin-left:17px;
-    margin-right:15px;
+    margin-right:16px;
 }
 
 .border {
@@ -469,6 +473,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
         margin-top: -26px;
         background-image: url(..//logo/bg2_sp.png);
         height: 416.93px;
+        width: initial !important;;
         background-position: center;
         background-size: cover;
     }
@@ -497,6 +502,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
     
     .summit_sub {
         display: flex;
+        width: initial !important;
         justify-content: center;
         padding-top: initial;
         padding-left: initial;
@@ -576,16 +582,16 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
 
     .event_sub {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         margin: 0 auto;
-        max-width: 269px;
+        width: 1426px;
         padding-right: 14px;
         padding-top: 19px;
     }
     
     .event_subt{
         color: #444545;
-        width: 180px;
+        width: 150px;
         height: 18px;
         top: 958px;
         left: 601px;
@@ -595,6 +601,10 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
         font-weight: 700;
         line-height: 18px;
         text-align: center;
+    }
+
+    .event_subt1{
+        width:200px !important;
     }
     
     .border {
@@ -637,6 +647,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
         justify-content: center;
         padding-top: initial;
         padding-left: initial;
+        width: initial !important;
         padding-top:2px;
         padding-left:14px;
     }
@@ -1008,6 +1019,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
 /* イベント内容 */
             .bg_orange{
                 background-color: #FFF6DE;
+                width: 1440px;
                 height: 814px;
                 margin-top: 145px;
             }
@@ -1185,6 +1197,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
                 background-color: #FFF6DE;
                 height: 785px;
                 margin-top: 930px;
+                width: initial !important;
             }
 
             .event_contents{
@@ -1398,6 +1411,7 @@ display: none; /* PCではスマホ用のバナーは非表示にします */
     border-left: 50px solid #FDD35C;/*左線*/
     border-right: 50px solid #FDD35C;/*右線*/
     height: 626px;
+    width: 1340px;
 }
 
 .pick_up_table{
@@ -1916,12 +1930,8 @@ padding-left: 111px;
         overflow: hidden;
       }
       
-      .readmore input[type="checkbox"]:checked ~ .readmore-content {
+      .readmore input[type="checkbox"]:checked ~ .readmore-content,.bg_company_list_btn {
         height: auto;
-      }
-      
-      .readmore input[type="checkbox"]:checked ~ .bg_company_list_btn {
-        height: 640px;
       }
 
       .readmore-content::before {
@@ -1986,7 +1996,7 @@ padding-left: 111px;
     text-align: center;       
 }
 
-.border {
+.border1 {
     width: 30px;
     height: 0px;
     top: 968.13px;
@@ -2518,11 +2528,11 @@ position: relative;
         margin-top: 2px;
     }
     
-    .border {
+    .border1 {
         width: 29px;
         height: 0px;
         gap: 0px;
-        border: 0.67px solid #FFFFFF;
+        border: 0.67px solid #FFFFFF !important;
         opacity: 0px;
     }
 
@@ -3034,7 +3044,7 @@ position: relative;
     }
 
     .faq_sub{
-        transform: translate(5px,-477px); 
+        transform: translate(6px,-473px); 
     }
 
     .Qa-Box {

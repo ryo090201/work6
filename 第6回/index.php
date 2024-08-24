@@ -77,7 +77,7 @@
             </div>
             <div class="event_sub">
                 <div class="border"> </div>
-                <div class="event_subt">
+                <div class="event_subt event_subt1">
                     <p>イベント開催概要</p>
                 </div>
                 <div class="border"> </div>
@@ -260,11 +260,11 @@
         <p>Time Schedule</p>
     </div>
     <div class="sche_sub">
-        <div class="border"> </div>
+        <div class="border border1"> </div>
             <div class="sche_subt">
                 <p>タイムスケジュール</p>
             </div>
-        <div class="border"> </div>
+        <div class="border border1"> </div>
     </div>
     
     <main class="wrapper grid">
