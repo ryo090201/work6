@@ -54,7 +54,6 @@
     </div>
 <!-- フリーランスサミットとは -->
     <div class="bg_summit">
-        <div>
             <div class="summit_title">
                 <p>Freelance Summit</p>
             </div>
@@ -71,6 +70,7 @@
             <div class="summit_text">
                 <p><span>各業界でTOPクラスのフリーランスが集</span><span>結するイベント。有名企業が集結する40</span><span>ブースもの出展エリアに加え、各領域で</span><span>圧倒的に結果を出し続ける精鋭フリーラ</span><span>ンス達が、自身のノウハウを語ります。</span><span>他のイベントでは味わえない、新たな体</span><span>験と出会える充実したコンテンツを用意</span><span>しています。</p>
             </div>
+    
 <!-- イベント開催概要 -->
             <div class="event_title">
                 <p>Event Summary</p>
@@ -113,38 +113,37 @@
                         </ul>
                         <div class="map"><img src="./logo/map.png" alt="map"></div>
                     </dd>
-                    <div class="map_sp"><img src="./logo/map.png" alt="map"></div>
                 </dl>
+                <div class="map_sp"><img src="./logo/map.png" alt="map"></div>
             </div>
-        </div>
-    </div>
+            </div>
 <!-- イベント内容 -->
     <div class=bg_orange>
         <div class="event_contents">
             <p>Contents</p>
         </div>
-        <div class="event_sub">
+        <div class="event_sub event_sub_contents">
             <div class="border"> </div>
-            <div class="event_subt">
+            <div class="event_subt event_subt2">
                 <p>イベント内容</p>
             </div>
             <div class="border"> </div>
         </div>
         <div class="contents_boxa">
-        <div class="contents_boxb">
-            <p class="contents_boxc">フリーランスに特化した企業エリア</p>
-            <p class="contents_boxd1">出会いたい企業にきっと出会える</p>
-            <img class="huki huki1" src="./logo/huki.png" alt="huki">
-            <p class="word_contents1"><span class="word_top">60</span><span class="word_contents2">ブースの企業エリア</span></p>
-            <img class="pic pic1" src="./logo/pic1.png" alt="pic1">
-        </div>
-        <div class="contents_boxb contents_boxb_sp">
-            <p class="contents_boxc">各業界の著名人が登壇</p>
-            <p class="contents_boxd2">ここでしか聞けない話が聞ける</p>
-            <img class="huki huki2" src="./logo/huki.png" alt="huki">
-            <p class="word_contents3">豪華セミナーを開催</p>
-            <img class="pic pic2" src="./logo/pic2.png" alt="pic2">
-        </div>
+            <div class="contents_boxb contents_boxb1">
+                <p class="contents_boxc">フリーランスに特化した企業エリア</p>
+                <p class="contents_boxd1">出会いたい企業にきっと出会える</p>
+                <img class="huki huki1" src="./logo/huki.png" alt="huki">
+                <p class="word_contents1"><span class="word_top">60</span><span class="word_contents2">ブースの企業エリア</span></p>
+                <img class="pic pic1" src="./logo/pic1.png" alt="pic1">
+            </div>
+            <div class="contents_boxb contents_boxb2 contents_boxb_sp">
+                <p class="contents_boxc">各業界の著名人が登壇</p>
+                <p class="contents_boxd2">ここでしか聞けない話が聞ける</p>
+                <img class="huki huki2" src="./logo/huki.png" alt="huki">
+                <p class="word_contents3">豪華セミナーを開催</p>
+                <img class="pic pic2" src="./logo/pic2.png" alt="pic2">
+            </div>
         </div>
         <div class="button-line buton-line-2">
             <a href="#">事前申し込みはこち<span class="ra">ら</span>(無料)<img src="./logo/line_icon.png" alt="line"></a>
@@ -157,35 +156,25 @@
         </div>
         <div class="event_sub pick_up_sub">
             <div class="border"> </div>
-            <div class="event_subt">
+            <div class="event_subt event_subt3">
                 <p>注目の企業</p>
             </div>
             <div class="border"> </div>
         </div>
-        <div class="pick_up_table">
-            <dl>
-                <div class="pick_table">
-                    <dt><img class="com1" src="./logo/com1.png" alt="com1"></dt>
-                    <dd class="com1_t"><p>オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表す<br />る企業になる<span class="modi">べく2015年に産声をあげたベンチャー企業です。</span></p><a href="#">https://oplan.co.jp/</a></dd>
-                </div>
-                <div class="pick_table">
-                    <dt><img class="com2" src="./logo/com2.png" alt="com2"></dt>
+            <div class="pick_up_table">
+                <dl class="pick_table">
+                    <dt class="com1"><img src="./logo/com1.png" alt="com1"></dt>
+                    <dd class="com1_t"><p>オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になる<span class="modi">べく2015年に産声をあげたベンチャー企業です。</span></p><a href="#">https://oplan.co.jp/</a></dd>
+                    <dt class="com2"><img src="./logo/com2.png" alt="com2"></dt>
                     <dd class="com2_t"><p>ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</p></dd>
-                </div>
-                <div class="pick_table">
-                    <dt><img class="com3" src="./logo/com3.png" alt="com3"></dt>
+                    <dt class="com3"><img src="./logo/com3.png" alt="com3"></dt>
                     <dd class="com3_t"><p>台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</p></dd>
-                </div>
-                <div class="pick_table">
-                    <dt><img class="com4" src="./logo/com4.png" alt="com4"></dt>
-                    <dd class="com4_t"><p>月額制システム開発チームレンタルSucSak(サクサク)を運営している<span class="modi">東京新宿のシステム開発会社です。</span></p><img class="com5" src="./logo/com5.png" alt="com5"><span>：https:<span class="modi2">//sucsak.com/</span></span></dd>
-                </div>
-                <div class="pick_table">
-                    <dt><img class="com6" src="./logo/com6.png" alt="com6"></dt>
+                    <dt class="com4"><img src="./logo/com4.png" alt="com4"></dt>
+                    <dd class="com4_t"><p>月額制システム開発チームレンタルSucSak(サクサク)を運営している<span class="modi3">東京新宿のシステム開発会社です。</span></p><img class="com5" src="./logo/com5.png" alt="com5"><span class="modi2">：https://sucsak.com/</span></dd>    
+                    <dt class="com6"><img src="./logo/com6.png" alt="com6"></dt>
                     <dd class="com6_t"><p>1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p></dd>
-                </div>   
-            </dl> 
-        </div>
+                </dl> 
+            </div>
     </div>
 <!-- 出展企業一覧 -->
      <div class="bg_company_list bg_company_list_btn">
@@ -221,6 +210,7 @@
             <p>株式会社スポーツ＆ライフイノベーション</p>
             <p>株式会社iGO</p>
             <p>株式会社エドモンド</p>
+            <p class="company_hosoku">（順不同、一部企業のみ掲載）</p>
         </div>
         <div class="company_list3">
         <div class="readmore">
@@ -245,12 +235,10 @@
             <p>株式会社スポーツ＆ライフイノベーション</p>
             <p>株式会社iGO</p>
             <p>株式会社エドモンド</p>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div class="company_hosoku">
             <p>（順不同、一部企業のみ掲載）</p>
+        </div>
+        </div>
+        </div>
         </div>
     </div> 
 
@@ -265,8 +253,7 @@
                 <p>タイムスケジュール</p>
             </div>
         <div class="border border1"> </div>
-    </div>
-    
+    </div>  
     <main class="wrapper grid">
         <div class="item">
             <p class="item_block item_block1">10:00〜</p>
@@ -368,7 +355,6 @@
             </div>
         </div>
     </main>
-
     <div class="item_sche_sp">
         <div class="item item_sp1">
             <p class="item_block item_block1">10:00〜</p>
@@ -461,7 +447,7 @@
             <p class="item_text item_text9">エンジニアとして独立し、年収<span>3000</span>万円を超える方法</p>
 
         </div>
-      <div class="item item10 item_sp10">
+        <div class="item item10 item_sp10">
             <p class="item_block item_block10">16:20〜</p>
             <p class="item_block item_block10-2">16:00〜</p>
             <div class="item_center">
@@ -476,6 +462,7 @@
                 <img class="sche12-2" src="./logo/uekane2.png" alt=>
             </div>
         </div>
+    </div>
 </div>
     <!-- FAQ -->
     <img class="faq_pc" src="./logo/faq_pc.png" alt=>
@@ -485,7 +472,7 @@
         </div>
         <div class="event_sub pick_up_sub faq_sub">
             <div class="border border_faq"> </div>
-                <div class="event_subt">
+                <div class="event_subt faq_subt">
                     <p>よくある質問</p>
                 </div>
             <div class="border border_faq"> </div>
@@ -512,7 +499,7 @@
             <dt>
                 <p>出展を希望する企業はどこから問い合わせれば良いですか？</p>
             </dt>
-            <dd>
+            <dd class="Qa3_2">
                 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</p>
             </dd>
         </div>
@@ -520,11 +507,19 @@
     <footer>
         <div class="btn_foot"><p>出展希望企業はこちら</p></div>
         <hr />
-        <div>
+        <div class="footer_box">
+        <div class="footer_icon">
+            <div>
             <p class="housin housin_sp">運営会社</p>
+            </div>
+            <div>
             <img class="fv_logo fv_logo_sp" src="./logo/fv_logo.png" alt="">
+            </div>
+            <div>
             <p class="kojin kojin_sp">個人情報保護方針</p>
+            </div>
         </div>
+    </div>
     </footer>
 </body>
 </html>
