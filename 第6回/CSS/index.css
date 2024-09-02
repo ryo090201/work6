@@ -5062,10 +5062,10 @@ position: relative;
         }
       }
 
-      @media screen and (max-width: 390px) {
+      @media screen and (max-width: 450px) {
 
         footer{
-            width: 391px !important;
+            width: auto !important;
             height: 158px !important;
             top: 3886px;
             gap: 0px;
