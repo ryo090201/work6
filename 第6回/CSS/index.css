@@ -5,6 +5,10 @@
     padding:0;
    }
 
+html,body{
+    height: 100%;
+}
+
 body {
     font-family: "Noto Sans JP", sans-serif;
 }
@@ -2452,11 +2456,16 @@ padding-top: 3px;
         left: 151px;
         gap: 0px;
         opacity: 0px;
-        padding-top: 12px;
+        padding-top: 11px;
     }
 
     .com1_t{
         padding-top: 10px !important;
+    }
+
+    .com1_t p{
+        padding-top:initial;
+        letter-spacing:-0.3px;
     }
 
     .com1_t a{
@@ -2464,22 +2473,23 @@ padding-top: 3px;
     }
 
     .modi{
-        letter-spacing:0.4px;
+        letter-spacing:-0.1px;
     }
 
     .modi3{
-        letter-spacing:0.7px;
+        letter-spacing:-0.01px;
+        padding-left: 2px;
     }
 
     .com2 img{
-        width: 180px;
-        height: 13.68px;
+        width: 175px;
+        height: 13.38px;
         top: 256px;
         left: 111px;
         padding: 0px;
         gap: 0px;
         opacity: 0px;
-        padding-top: 40px;
+        padding-top: 33px;
     }
 
     .com2_t{
@@ -2493,23 +2503,20 @@ padding-top: 3px;
         left: 99px;
         gap: 0px;
         opacity: 0px;
-        padding-top: 43px;
+        padding-top: 39px;
     }
 
     .com3_t{
-        padding-top: 11px !important;
+        padding-top: 10px !important;
         margin-right: initial !important;
-        margin-left: 12px !important;
+        margin-left: 10px !important;
+        letter-spacing:-0.6px;
     }
 
     .com4 img{
         width: 124px;
         height: 57px;
-        top: 474px;
-        left: 126px;
-        gap: 0px;
-        opacity: 0px;
-        transform: initial;
+        transform: translateY(-3px) !important;
     }
 
     .com4{
@@ -2517,12 +2524,13 @@ padding-top: 3px;
     }
 
     .com4_t{
-        width: 355px !important;
+        width: 340px !important;
         padding-top: initial;
+        transform: translateY(-5px) !important;
         margin-right: initial !important;
         margin-left: 5px !important;
         padding-bottom: 3px;
-        letter-spacing: 0.5px;
+        letter-spacing:-0.4px;
     }
 
     .com4_t p{
@@ -2538,7 +2546,7 @@ padding-top: 3px;
     }
 
     .pick_up_table dd {
-        width: 347px;
+        width: 334px;
         height: 63px;
         top: 158px;
         left: 19px;
@@ -2559,13 +2567,13 @@ padding-top: 3px;
             left: 73px;
             gap: 0px;
             opacity: 0px;
-            padding-left:60px;
-            padding-top: 10px;
+            padding-left:55px;
+            padding-top: 8px;
         }
 
         .modi2{
             display: inline-block;
-            letter-spacing: 0.3px !important;
+            letter-spacing: -0.1px !important;
         }
 }
 
@@ -2586,12 +2594,11 @@ padding-top: 3px;
     font-style: italic;
     font-weight: 700;
     line-height: 60px;
-    width: 100%;
-    /* max-width: 482px; */
+    width: auto;
     text-align: center;
     color:#81D7FC;
     padding-top: 51px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .company_list_sub {
@@ -2633,8 +2640,8 @@ padding-top: 3px;
     margin: 0 auto;
     justify-content: center;
     position: relative;
-    padding-left: 15px;
-    width: 100%;
+    padding-left: 30px;
+    width: auto;
 }
 
 .company_list1{
@@ -2689,24 +2696,21 @@ padding-top: 3px;
     display: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 990px) {
     .company_hosoku{
         padding-left: 54px !important;
     }
-}
-
-@media screen and (max-width: 850px) { 
 
     .company_list1 p{
-    font-size: 16px !important;
-    }
-    
-    .company_list2 p{
         font-size: 16px !important;
-    }
-    }
+        }
+        
+        .company_list2 p{
+            font-size: 16px !important;
+        }
+}
 
-@media screen and (max-width: 710px) { 
+@media screen and (max-width: 730px) { 
 
     .bg_company_list {
         background-image: none;
@@ -2779,6 +2783,7 @@ padding-top: 3px;
     .company_list3 {
         display: block;
         padding-top: 36px;
+        padding-right: 25px;
     }
 
     .company_list3 p{
@@ -3451,7 +3456,7 @@ position: relative;
     display: none;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 730px) {
 
     .section_sche {
         background-image: url(..//logo/bg4_sp.png);
@@ -4705,7 +4710,7 @@ position: relative;
           }
       }
 
-    @media screen and (max-width: 710px) {
+    @media screen and (max-width: 730px) {
 
         .faq_pc{
             padding-top: 400px !important;
