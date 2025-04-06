@@ -21,6 +21,11 @@ body {
     padding-bottom: 96px;
     background-position: center;
     background-size: cover;
+    background-image: url(..//logo/backdround.png);
+    width: 100%;
+    padding-bottom: 96px;
+    background-position: center;
+    background-size: cover;
 }
 
 .logo img{
